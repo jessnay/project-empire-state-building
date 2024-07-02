@@ -1,0 +1,245 @@
+
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for the whole page */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    overflow: hidden; /* Clear floated elements */
+}
+
+/* Header styling */
+.header {
+    background-image: url(image/empirestatebuilding);
+    background-size: 100% 100%;
+    background-position: center;
+    position: relative;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.header h1 {
+    position: absolute; 
+    top: 20%; 
+    left: 20%;
+    transform: translate(-50%, -50%); 
+    z-index: 1; 
+    margin: 0; 
+    padding: 10px; 
+    background-color: rgba(255, 255, 255, 0.8); 
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+img{
+    height: 300px;
+    width: 100%;
+}
+
+/* Navigation styling */
+.nav {
+    overflow: hidden;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li {
+    display: inline-block; /* Display li elements inline */
+    margin-right: 20px;
+}
+
+.nav ul li:last-child {
+    margin-right: 0; /* Remove margin from last li element */
+}
+
+.nav ul li a {
+    display: block;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #95aabd; /* Blue color */
+    transition: background-color 0.3s ease-in-out;
+}
+
+.nav ul li a:hover {
+    background-color: #6590bf; /* Darker blue on hover */
+}
+
+/* Container for sidebar and section */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex; /* Use flexbox */
+}
+
+.sectionHome{
+    width: 20%;
+    padding: 20px;
+    background-color: #95aabd;
+    color: white;
+}
+
+/* Links within the section */
+.section a {
+    color: #feffff; /* Change link color to a shade of blue */
+    text-decoration: none;
+}
+
+.section a:hover {
+    color: #e5e9ed; /* Darker blue on hover */
+}
+
+/* Sidebar styling */
+.sidebar {
+    flex: 1; 
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h2 {
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 5px;
+}
+
+
+.textsidebar{
+    text-align: justify;
+}
+
+/* Main content styling */
+.section {
+    margin-top: 40px; 
+    margin-bottom: 40px;
+    float: left;
+    width:95%;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column; 
+}
+
+/* Form styling */
+
+form {
+    margin-top: 20px; 
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: #9fbad2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #8e9aa7;
+}
+
+
+/* Footer styling */
+.footer {
+    clear: both;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+    margin-top: 40px;;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
